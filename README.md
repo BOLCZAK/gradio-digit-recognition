@@ -22,3 +22,15 @@ $$F1 = 2 \cdot \frac{precision \cdot recall}{precision + recall}$$
 Here is confusion matrix describing TP, TN, FP, FN:
 
 <img title="Confusion matrix" alt="confusion matrix" src="/img/ConfusionMatrix.png">
+
+The ```training.py``` script contains getting the MNIST data from ```keras.datasets```, creating the ```Sequential``` model and training it
+
+In the ```main.py``` script there is defined Gradio Interface that takes model selection as an input and with that it renders a 28x28 canvas in which we can draw by hand digits which are further passed to selected model for evaluation. As an output we get probabilities returned by model for each digit.
+
+# Installation
+
+------------------------
+
+If you want to run this project and Gradio environment you just need to run ```main.py``` script as any other Python 3 script. It will load Gradio environment and gives you back the link for it.
+
+### Have fun
