@@ -21,4 +21,4 @@ $$F1 = 2 \cdot \frac{precision \cdot recall}{precision + recall}$$
 
 Here is confusion matrix describing TP, TN, FP, FN:
 
-<img title="Confusion matrix" alt="confusion matrix" src="https://images.squarespace-cdn.com/content/v1/5acbdd3a25bf024c12f4c8b4/1599586328823-MEC7RJJWL59TC0FVUAQ6/Confusion+Matrix.pnghttps://images.squarespace-cdn.com/content/v1/5acbdd3a25bf024c12f4c8b4/1599586328823-MEC7RJJWL59TC0FVUAQ6/Confusion+Matrix.png">
+<img title="Confusion matrix" alt="confusion matrix" src="/img/ConfusionMatrix.png">
