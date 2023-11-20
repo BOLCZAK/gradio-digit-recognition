@@ -33,4 +33,10 @@ In the ```main.py``` script there is defined Gradio Interface that takes model s
 
 If you want to run this project and Gradio environment you just need to run ```main.py``` script as any other Python 3 script. It will load Gradio environment and gives you back the link for it.
 
+**Remember to install all the requirements from ```requirements.txt``` file by running** 
+
+```pip install -r requirements.txt``` 
+
+**command in project folder**
+
 ### Have fun
