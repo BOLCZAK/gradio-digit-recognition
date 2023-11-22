@@ -6,6 +6,8 @@ Repository for testing gradio framework and with digit recognition
  * Gradio framework
  * Tensorflow for handwritten digit recognition
 
+--------------------------
+
 In this repository there are multiple models which were trained with different layers configuration and different ```quality metrics```
 like:
 * Accuracy - the most basic metric which shows how close a given set of measurements (observations or readings) are to their true value and it's calculated using following formula
@@ -25,7 +27,7 @@ Here is confusion matrix describing TP, TN, FP, FN:
 
 The ```training.py``` script contains getting the MNIST data from ```keras.datasets```, creating the ```Sequential``` model and training it
 
-In the ```main.py``` script there is defined Gradio Interface that takes model selection as an input and with that it renders a 28x28 canvas in which we can draw by hand digits which are further passed to selected model for evaluation. As an output we get probabilities returned by model for each digit.
+In the ```main.py``` script there is defined Gradio Interface that takes model selection as an input and with that it also renders a 28x28 canvas in which we can draw by hand digits which are further passed to selected model for evaluation. As an output we get probabilities returned by model for each digit.
 
 # Installation
 
